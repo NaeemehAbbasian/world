@@ -10,16 +10,16 @@ const SearchAndFilter = ({ onSearch, onFilter }) => {
       <input
         type="text"
         placeholder="Search for a country..."
-        className="p-3 shadow-md rounded-md md:w-1/3 mb-4 md:mb-0 border border-gray-300"
+        className="p-3 shadow-md rounded-md md:w-1/3 mb-4 md:mb-0 border border-gray-300 text-white"
         onChange={(e) => onSearch(e.target.value)}
       />
 
       { }
       <select
-        className="p-3 shadow-md rounded-md"
+        className="p-2 shadow-md rounded-md text-white border border-gray-300"
         onChange={(e) => onFilter(e.target.value)}
       >
-        <option value="">Filter by Region</option>
+        <option value="" >Filter by Region</option>
         {regions.map((region) => (
           <option key={region} value={region}>
             {region}

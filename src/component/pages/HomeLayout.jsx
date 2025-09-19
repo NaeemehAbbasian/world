@@ -11,7 +11,7 @@ export default function HomeLayout() {
       className="min-h-screen bg-cover bg-center bg-no-repeat relative" 
       style={{ backgroundImage: `url('${bgImage}')` }}
     >
-      <div className="absolute inset-0 bg-black opacity-10"></div>
+      <div className="absolute inset-0 bg-black opacity-70"></div>
       
       <div className="relative z-10">
         <Header />
