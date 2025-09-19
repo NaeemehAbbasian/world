@@ -1,4 +1,3 @@
-// src/components/SearchAndFilter.jsx
 
 import React from 'react';
 

@@ -1,5 +1,3 @@
-// src/components/pages/HomeLayout.jsx
-
 import React from 'react';
 import { Outlet } from 'react-router';
 import Header from '../shared/Header';

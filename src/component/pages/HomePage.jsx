@@ -3,16 +3,7 @@ import { Link } from 'react-router'
 // import Header from '../shared/Header'
 import  world  from "../../../public/world.jpg"
 
-// export default function HomePage() {
-//   return (
-//     <div>
-//         <Header/>
-        
-//         <h1>Discover Countires</h1>
-//     </div>
-    
-//   )
-// }
+import Button from '../shared/Button'
 
 
 
@@ -38,9 +29,9 @@ const HomePage = () => {
         <Link 
           to="/countries" 
           
-          className="mt-4 px-8 py-4 bg-yellow-200 text-gray-800 font-bold rounded-lg shadow-xl hover:bg-yellow-300 transition-colors transform hover:scale-105"
+          className="mt-4 px-8 py-4 text-gray-800 font-bold rounded-lg shadow-xl transition-colors transform hover:scale-105"
         >
-          Explore Now
+           <Button>Explore Now</Button>
         </Link>
       </div>
     </div>
