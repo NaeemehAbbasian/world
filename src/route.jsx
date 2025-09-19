@@ -5,6 +5,7 @@ import HomeLayout from "./component/pages/HomeLayout.jsx"
 import Countries from "./component/pages/Countries.jsx";
 import  CountryDetailPage  from "./component/pages/CountryDetailPage.jsx";
 import { createBrowserRouter } from "react-router";
+import './index.css';
 
 
 const router = createBrowserRouter([
