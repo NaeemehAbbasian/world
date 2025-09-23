@@ -35,7 +35,7 @@ const CountryDetailPage = () => {
   }
 
   return (
-    <div className="p-8">
+    <div className="p-8 text-white ">
       {country && (
         <>
           <h1 className="text-4xl font-bold mb-4">{country.name.common}</h1>
